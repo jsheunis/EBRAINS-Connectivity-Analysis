@@ -14,7 +14,7 @@ dependencies:
       - jupyter-notebookparams
       - jupyter-server-proxy
       - datalad-next
-      - datalad-osf
-      - datalad-ebrains
+      - git+https://github.com/datalad/datalad-osf.git
+      - git+https://github.com/datalad/datalad-ebrains.git
       - nilearn
       - siibra
