@@ -2,9 +2,9 @@
 
 This repository holds code to demo how to run a connectivity analysis pipeline with [EBRAINS](https://ebrains.eu/) atlases using [siibra-python](https://siibra-python.readthedocs.io) and [Nilearn](http://nilearn.github.io/index.html).
 
-> **Note**
-> 
-> You can [run this notebook on EBRAINS](https://lab.ebrains.eu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fymzayek%2FEBRAINS-Connectivity-Analysis&urlpath=lab%2Ftree%2FEBRAINS-Connectivity-Analysis%2F)
+## Run the notebook on Binder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jsheunis/EBRAINS-Connectivity-Analysis/HEAD)
 
 ## Requirements
 
