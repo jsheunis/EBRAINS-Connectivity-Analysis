@@ -1,0 +1,19 @@
+# Git set up
+git config --global --add user.name "Ford Escort"
+git config --global --add user.email 42@H2G2.com
+
+# Set up bash prompt in .bashrc
+echo "export PS1='\w \$ '" >> ~/.bashrc
+
+# Install bash_kernel to Jupyter
+python -m bash_kernel.install
+
+# Enable nbgitpuller
+jupyter serverextension enable --py nbgitpuller --sys-prefix
+
+# Install and enable jupyter_notebookparams
+jupyter nbextension install --py jupyter_notebookparams --sys-prefix
+jupyter nbextension enable --py jupyter_notebookparams --sys-prefix
+
+# datalad-next extension has to be enabled for auto-loading
+git config --global --add datalad.extensions.load next
